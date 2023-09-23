@@ -1,0 +1,131 @@
+.navbar{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    color:#fff;
+    padding: 1rem;
+    
+}
+
+.logo{
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.searchBar{
+    flex-basis: 50%;
+    display: flex;
+    align-self: center;
+    gap:0.4rem;
+   
+    background-color: #1f1e1e00;
+    color: #808080;
+}
+.searchBar input{
+    width: 20rem;
+    padding: 0.5rem;
+    background-color: #1f1e1e00;
+    color: #808080;
+
+    border: 2px solid #FFFFFF80;
+    border-radius: 4px;
+}
+.searchBar button{
+    background-color: #1f1e1e00;
+    color: #808080;
+    width: 5rem;
+    border: 1px solid #FFFFFF80;
+}
+
+.icons{
+    flex-basis: 20%;
+    display: flex;
+    gap:1rem;
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo,
+    .searchBar,
+    .icons {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  
+    .searchBar input,
+    .searchBar button {
+      width: 100%;
+    }
+  }
+  
+.container{
+    max-width: 100%;
+    
+   
+    background-color: black;
+    color:#fff;
+    display: flex;
+}
+
+
+.data{
+  display: flex;
+}
+
+.title{
+  width: 700px;
+  height: 400px;
+  background-color: blue;
+  
+}
+
+
+.img-pic{
+
+  display: grid;
+  grid-template-columns: repeat(4,25%);
+  gap:4rem;
+  align-items: center;
+  margin: 1rem;
+}
+.img-pic img{
+  width: 200px;
+}
+
+.information{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: #fff;
+
+}
+
+.display-img{
+flex-basis: 30%;
+}
+.display-img img{
+  width: 200px;
+}
+.display-detail{
+  flex-basis: 70%;
+  background-color: rgb(41, 41, 112);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.para{
+  display: flex;
+  justify-content: space-between;
+  gap:4rem;
+}
+
